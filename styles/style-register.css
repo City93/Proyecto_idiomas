@@ -1,0 +1,15 @@
+form.main {
+    margin: 200px 0 0 50px;
+    width: 50%;
+}
+#questions{
+    background-color: red;
+    height: 80px;
+}
+div#levelTest{
+    border: 1px solid black;
+    /* display: flex;
+    flex-direction: column; */
+    height: 200px;
+
+}
