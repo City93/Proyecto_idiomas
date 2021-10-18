@@ -57,7 +57,7 @@ form.main{
     padding: 5px 10px 10px 20px;
 }
 #questions{
-    display: inherit;
+    display: none;
     margin-bottom: 15px;
 }
 div#levelTest{
