@@ -5,11 +5,14 @@ body{
 }
 
 /* Barra de navegación */
+
 .menu{
     border: 1px solid pink;
+    width: 100%;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    position:fixed;
 }
 
 .logo{
@@ -23,6 +26,7 @@ body{
     border: 1px solid blue;
     width: 250px;
     display:flex;
+ 
 
 }
 
@@ -30,5 +34,62 @@ body{
     border: 1px solid purple;
     list-style: none;
     margin: 0px 8px 0px 8px;
+   
 }
+
+a{
+    text-decoration: none; 
+    color:white;
+}
+
+/* Sección principal */
+
+main{
+    margin-top: 57px;
+    border: 1px solid pink;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    border: 1px solid red;
+    color:white;
+    text-align: center;
+    width: 900px;
+}
+
+.nav-idiom-list{
+    border: 1px solid blueviolet;
+    display:flex;
+    width: 900px;
+    justify-content: center;
+    margin:0px;
+    padding: 0px;
+
+}
+
+.item-idiom-list{
+    border: 1px solid yellowgreen;    
+    list-style: none;
+    margin: 15px;
+}
+
+.img-idiom{
+    width: 105px;
+    height: 70px;
+}
+
+/* Footer */
+
+footer{
+    display:flex;
+    justify-content: center;
+    position:fixed;
+    width: 100%;
+    color:white;
+}
+
+
 
