@@ -8,12 +8,12 @@ document.getElementById("languages").onchange = changeListener;
   let value = this.value
     console.log(value);
     
-    if (value == "english"){
+    if (value == "ingles"){
       document.getElementById('questions').style.display  = 'inherit'
-      document.getElementById('level').style.display = 'none'
+      document.getElementById('level2').style.display = 'none'
     }else{
         document.getElementById('questions').style.display = 'none'
-        document.getElementById('level').style.display = 'inherit'
+        document.getElementById('level2').style.display = 'inherit'
     }
     
   }

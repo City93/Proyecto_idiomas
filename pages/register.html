@@ -39,9 +39,9 @@
         <label for="languages">Seleccionar idioma:</label>
         <select name="languages" id="languages">
             <option value="" selected disabled hidden></option>
-            <option value="english">English</option>
-            <option value="french">French</option>
-            <option value="german">German</option>
+            <option value="ingles">Inglés</option>
+            <option value="frances">Francés</option>
+            <option value="aleman">Alemán</option>
         </select>
       </p>
       <div id='levelTest'>
@@ -51,15 +51,15 @@
             <form>
                   <input type="radio" id="a1" name="a1" value="answer1">
                   <label for="a1">Respuesta 1</label><br>
-                  <input type="radio" id="a2" name="a2" value="answer2">
+                  <input type="radio" id="a2" name="a1" value="answer2">
                   <label for="a2">Respuesta 2</label><br>
-                  <input type="radio" id="a3" name="a3" value="answer3">
+                  <input type="radio" id="a3" name="a1" value="answer3">
                   <label for="a3">Respuesta 3</label>
                 <br>
-                  <input type="radio" id="a4" name="a4" value="answer4">
+                  <input type="radio" id="a4" name="a1" value="answer4">
                   <label for="a4">Respuesta 4</label>
             </form>
-            <p>Pregunta 2: </p>
+            <!-- <p>Pregunta 2: </p>
             <form>
                   <input type="radio" id="a1" name="a1" value="answer1">
                   <label for="a1">Respuesta 1</label><br>
@@ -82,15 +82,15 @@
                 <br>
                   <input type="radio" id="a4" name="a4" value="answer4">
                   <label for="a4">Respuesta 4</label>
-            </form>  
+            </form>   -->
         </div>
-        <p id='level'>
+        <p id='level2'>
           <label for="name">Seleccionar nivel:</label>
           <select name="level" id="level">
               <option value="" selected disabled hidden></option>
-              <option value="starter">Starter</option>
-              <option value="intermediate">Intermediate</option>
-              <option value="expert">Expert</option>
+              <option value="principiante">Principiante</option>
+              <option value="intermedio">Intermedio</option>
+              <option value="experto">Experto</option>
           </select>
         </p>
         <input type="button" id="button" value="Enviar">
@@ -111,6 +111,6 @@
 
 </footer>   
 
-    
+  <script type="module" src="../scripts/script-bbdd.js"></script>
 </body>
 </html>
