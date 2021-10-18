@@ -6,11 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/style-register.css">
+    <script src="../scripts/script-validation.js" defer></script>
     <title>INSCRIBETE! - 3 Ceintures</title>
 </head>
 <body>
+  <nav class="menu">
+
+    <img class="logo" src="../assets/images/logo.png" alt="logo">
+
+    <ul class="nav-list">          
+      <li class="item-list"><a href="./pages/register.html">INSCRÍBETE</a></li>
+      <li class="item-list"><a href="./pages/contact.html">CONTACTO</a></li>
+    </ul>
+
+  </nav>
 <div id='root'>
-<h1>Tú primer paso para aprender un idioma:</h1>
+<h1>Tu primer paso para aprender un idioma:</h1>
 <form class='main'>
       <p>
         <label for="fName">Nombre:</label>
@@ -27,15 +38,16 @@
       <p>
         <label for="languages">Seleccionar idioma:</label>
         <select name="languages" id="languages">
+            <option value="" selected disabled hidden></option>
             <option value="english">English</option>
             <option value="french">French</option>
             <option value="german">German</option>
         </select>
       </p>
       <div id='levelTest'>
+        <div id= 'questions'>
           <p>Prueba de nivel:</p>
           <p>Pregunta 1: </p>
-        <div id= 'questions'>
             <form>
                   <input type="radio" id="a1" name="a1" value="answer1">
                   <label for="a1">Respuesta 1</label><br>
@@ -72,21 +84,33 @@
                   <label for="a4">Respuesta 4</label>
             </form>  
         </div>
-        <p>
+        <p id='level'>
           <label for="name">Seleccionar nivel:</label>
           <select name="level" id="level">
+              <option value="" selected disabled hidden></option>
               <option value="starter">Starter</option>
               <option value="intermediate">Intermediate</option>
               <option value="expert">Expert</option>
           </select>
         </p>
-
-      </div>
-      <p>
         <input type="button" id="button" value="Enviar">
-      </p>
+        
+      </div>
+
   </form>
 </div>
+<footer>
+  <p> 
+      <a href="">Mapa Web</a> ||
+      <a href="">Condiciones Generales</a>  ||
+      <a href="">Aviso Legal</a>  ||
+      <a href="">Política de Privacidad</a>  ||
+      <a href="">Política de Cookies</a>  || 
+      <a href="">Configurar Cookies</a>
+  </p>
+
+</footer>   
+
     
 </body>
 </html>
