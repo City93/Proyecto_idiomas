@@ -1,0 +1,159 @@
+body{
+    /* border: 1px solid red; */
+    background-color: #1A312B;
+    
+}
+
+/* Barra de navegación */
+
+.menu{
+    top:0px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    /* border: 1px solid pink; */
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    background-color: #1A312B;   
+}
+
+.logo{
+    /* border: 1px solid green; */
+    width: 190px;
+    height: 36px;
+    margin-left: 17px;
+}
+
+.nav-list{
+    /* border: 1px solid blue; */
+    width: 250px;
+    display:flex;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 200;
+    font-size: 15px;
+
+}
+
+.item-list{
+    /* border: 1px solid purple; */
+    list-style: none;
+    margin: 0px 8px 0px 8px;
+   
+}
+
+a{
+    text-decoration: none; 
+    color:white;
+}
+
+
+
+/* Sección principal */
+
+main{
+    background-image: url("../assets/images/fondo-home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;      
+    margin-top: 57px;
+    /* border: 1px solid pink; */
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.slogan{
+    /* border: 1px solid red; */
+    margin-top:95px;
+    color:#23403E;
+    text-align: center;
+    width: 900px;
+    font-family: 'Georama', sans-serif;
+    font-weight: 300px;
+    font-size:40px;
+    text-align:center;
+
+}
+
+.slogan2{
+    /* border: 1px solid red; */
+
+    color:#23403E;
+    text-align: center;
+    width: 900px;
+    font-family: 'Georama', sans-serif;
+    font-weight: 300px;
+    font-size:40px;
+    text-align:center;
+    margin-top:-22px;
+    font-size: 30px;
+}
+
+.nav-idiom-list{
+    /* border: 1px solid blueviolet; */
+    display:flex;
+    width: 900px;
+    justify-content: center;
+    margin:0px;
+    padding: 0px;
+
+}
+
+.item-idiom-list{
+    border: 3px solid rgba(153, 205, 50, 0); 
+    width: 123.6px;
+    padding: 5px;
+    border-radius: 4%;
+    list-style: none;
+    margin: 15px;    
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color:#17241bc7; 
+    opacity: 0.9;
+}
+
+ 
+.item-idiom-list:hover {
+    opacity: 2;
+    border: 3px solid white; 
+  }
+
+.img-idiom{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+span{
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 200;
+    font-size: 15px;
+
+}
+
+
+
+/* Footer */
+
+footer{
+    display:flex;
+    justify-content: center;
+    position:fixed;    
+    width: 100%;
+    color:white;
+    height: 5px; 
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 200;
+    font-size: 15px;
+    
+}
+
+
+
+

@@ -1,0 +1,77 @@
+body{
+    /* background-color: black; */
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* Barra de navegación */
+
+.menu{
+    top:0px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    padding: 3px 3px;
+    /* border: 1px solid pink; */
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    background-color: #1A312B;
+}
+
+.logo{
+    /* border: 1px solid green; */
+    width: 190px;
+    height: 36px;
+    margin-left: 17px;
+}
+
+.nav-list{
+    /* border: 1px solid blue; */
+    width: 250px;
+    display:flex;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 200;
+    font-size: 15px;
+
+}
+
+.item-list{
+    /* border: 1px solid purple; */
+    list-style: none;
+    margin: 0px 8px 0px 8px;
+   
+}
+
+a{
+    text-decoration: none; 
+    color:white;
+}
+div#root {
+    margin: 100px 0 0 50px;
+    width: 50%;
+    background-color: white;
+}
+form.main{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px 10px 10px 20px;
+}
+#questions{
+    display: none;
+    margin-bottom: 15px;
+}
+
+
+footer{
+    display:flex;
+    justify-content: center;
+    position:fixed;    
+    width: 100%;
+    color:white;
+    height: 50px;
+    bottom: 0px;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 200;
+    font-size: 15px;
+    background-color: #1A312B;
+}
