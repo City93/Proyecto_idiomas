@@ -9,17 +9,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,600;1,300;1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@300;400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
     <title>Contact</title>
 </head>
 
 <body>
     <nav class="menu">
 
-        <img class="logo" src="../assets/images/logo.png" alt="logo">
+        <a href="../index.html"><img class="logo" src="../assets/images/logo.png" alt="logo"></a>
 
         <ul class="nav-list">          
-          <li class="item-list"><a href="./pages/register.html">INSCRÍBETE</a></li>
-          <li class="item-list"><a href="./pages/contact.html">CONTACTO</a></li>
+          <li class="item-list"><a href="../pages/register.html">INSCRÍBETE</a></li>
+          <li class="item-list"><a href="../pages/contact.html">CONTACTO</a></li>
         </ul>
 
       </nav>
@@ -54,13 +58,13 @@
                     </div> 
     
                     <div class="submit">
-                        <input type="button" value="Enviar">
+                        <input type="button" value="Enviar" onclick= "alert('Su mensaje se ha enviado correctamente')">
                     </div>
     
                     </form>  
                 </section>
             <section class="map">
-                <p>Dónde estamos</p>
+                <p class="title-map">Dónde estamos</p>
                 <img src="../assets/images/mapa.jpg">
             </section>
         </div>
