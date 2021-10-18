@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">       
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style-home.css">
-    <title>3 ceintures</title> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <title>3 Ceintures</title> 
 </head>
 <body>
     <nav class="menu">
@@ -14,7 +19,7 @@
         <img class="logo" src="./assets/images/logo.png" alt="logo">
 
         <ul class="nav-list">          
-          <li class="item-list"><a href="./pages/register.html">INSCRIBETE</a></li>
+          <li class="item-list"><a href="./pages/register.html">INSCRÍBETE</a></li>
           <li class="item-list"><a href="./pages/contact.html">CONTACTO</a></li>
         </ul>
 
@@ -22,27 +27,38 @@
     
     <main>
         
-        <h1>¿Qué idioma quieres aprender?</h1>
+        <p class="slogan">
+          Habla inglés, francés o alemán en 3 meses. <strong>Independientemente de tu talento, edad,</strong> o las dificultades que hayas tenido en el pasado.</p>
+
+        <p class="slogan2">¿Estas listo?</p>
 
         <ul class="nav-idiom-list">
 
-          <li class="item-idiom-list" >
-              <a href="./pages/register.html">
+          <a href="./pages/register.html">
+            <li class="item-idiom-list" >              
                 <img class="img-idiom" id="english" src="./assets/images/ingles.png" alt="flag-english">
-              </a>
-          </li>
-          
-          <li class="item-idiom-list" >
-            <a href="./pages/register.html">
-              <img class="img-idiom" id="french" src="./assets/images/frances.jpg" alt="flag-french">
-            </a>
-          </li>
+                <span>Inglés</span>             
+            </li> 
+          </a>
 
-          <li class="item-idiom-list" >
-            <a href="./pages/register.html">
+
+          <a href="./pages/register.html">
+            <li class="item-idiom-list" >            
+              <img class="img-idiom" id="french" src="./assets/images/frances.jpg" alt="flag-french">
+              <span>Francés</span>
+            
+            </li>
+          </a>
+
+
+          <a href="./pages/register.html">
+            <li class="item-idiom-list" >
+            
               <img class="img-idiom" id="german" src="./assets/images/aleman.jpg" alt="flag-german">
-            </a>
-          </li>
+              <span>Alemán</span>              
+           
+            </li>
+          </a>
 
         </ul>
 
@@ -58,12 +74,7 @@
             <a href="">Configurar Cookies</a>
         </p>
 
-    </footer>
-
-
-
-
-    
+    </footer>   
 
     
 </body>
