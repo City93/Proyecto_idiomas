@@ -1,15 +1,23 @@
-form.main {
-    margin: 200px 0 0 50px;
+body{
+    /* background-color: black; */
+}
+div#root {
+    margin: 57px 0 0 50px;
     width: 50%;
+    background-color: white;
+}
+form.main{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px 10px 10px 20px;
 }
 #questions{
-    background-color: red;
-    height: 80px;
+    /* background-color: red; */
+    /* height: 80px; */
+    /* border: 1px solid black */
 }
 div#levelTest{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* display: flex;
     flex-direction: column; */
-    height: 200px;
-
+    /* height: 200px; */
 }

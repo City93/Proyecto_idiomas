@@ -10,61 +10,83 @@
 </head>
 <body>
 <div id='root'>
+<h1>Tú primer paso para aprender un idioma:</h1>
+<form class='main'>
+      <p>
+        <label for="fName">Nombre:</label>
+        <input type="text" name="fName" id="fName" value="">
+      </p>
+      <p>
+        <label for="lName">Apellidos:</label>
+        <input type="text" name="lName" id="lName" value="">
+      </p>
+      <p>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" name="email" id="email" value="">
+      </p>
+      <p>
+        <label for="languages">Seleccionar idioma:</label>
+        <select name="languages" id="languages">
+            <option value="english">English</option>
+            <option value="french">French</option>
+            <option value="german">German</option>
+        </select>
+      </p>
+      <div id='levelTest'>
+          <p>Prueba de nivel:</p>
+          <p>Pregunta 1: </p>
+        <div id= 'questions'>
+            <form>
+                  <input type="radio" id="a1" name="a1" value="answer1">
+                  <label for="a1">Respuesta 1</label><br>
+                  <input type="radio" id="a2" name="a2" value="answer2">
+                  <label for="a2">Respuesta 2</label><br>
+                  <input type="radio" id="a3" name="a3" value="answer3">
+                  <label for="a3">Respuesta 3</label>
+                <br>
+                  <input type="radio" id="a4" name="a4" value="answer4">
+                  <label for="a4">Respuesta 4</label>
+            </form>
+            <p>Pregunta 2: </p>
+            <form>
+                  <input type="radio" id="a1" name="a1" value="answer1">
+                  <label for="a1">Respuesta 1</label><br>
+                  <input type="radio" id="a2" name="a2" value="answer2">
+                  <label for="a2">Respuesta 2</label><br>
+                  <input type="radio" id="a3" name="a3" value="answer3">
+                  <label for="a3">Respuesta 3</label>
+                <br>
+                  <input type="radio" id="a4" name="a4" value="answer4">
+                  <label for="a4">Respuesta 4</label>
+            </form> 
+            <p>Pregunta 3: </p>
+            <form>
+                  <input type="radio" id="a1" name="a1" value="answer1">
+                  <label for="a1">Respuesta 1</label><br>
+                  <input type="radio" id="a2" name="a2" value="answer2">
+                  <label for="a2">Respuesta 2</label><br>
+                  <input type="radio" id="a3" name="a3" value="answer3">
+                  <label for="a3">Respuesta 3</label>
+                <br>
+                  <input type="radio" id="a4" name="a4" value="answer4">
+                  <label for="a4">Respuesta 4</label>
+            </form>  
+        </div>
+        <p>
+          <label for="name">Seleccionar nivel:</label>
+          <select name="level" id="level">
+              <option value="starter">Starter</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="expert">Expert</option>
+          </select>
+        </p>
 
+      </div>
+      <p>
+        <input type="button" id="button" value="Enviar">
+      </p>
+  </form>
 </div>
-    <form class='main'>
-        <fieldset>
-          <p>
-            <label for="fName">Nombre:</label>
-            <input type="text" name="fName" id="fName" value="">
-          </p>
-          <p>
-            <label for="lName">Apellidos:</label>
-            <input type="text" name="lName" id="lName" value="">
-          </p>
-          <p>
-            <label for="email">Correo electrónico:</label>
-            <input type="email" name="email" id="email" value="">
-          </p>
-          <p>
-            <label for="languages">Seleccionar idioma:</label>
-            <select name="languages" id="languages">
-                <option value="english">English</option>
-                <option value="french">French</option>
-                <option value="german">German</option>
-            </select>
-          </p>
-          <div id='levelTest'>
-              <p>Prueba de nivel:</p>
-              <p>Pregunta 1: </p>
-            <div id= 'questions' >
-                <form>
-                      <input type="radio" id="a1" name="a1" value="answer1">
-                      <label for="a1">Respuesta 1</label><br>
-                      <input type="radio" id="a2" name="a2" value="answer2">
-                      <label for="a2">Respuesta 2</label><br>
-                      <input type="radio" id="a3" name="a3" value="answer3">
-                      <label for="a3">Respuesta 3</label>
-                      <input type="radio" id="a4" name="a4" value="answer4">
-                      <label for="a4">Respuesta 4</label>
-                </form> 
-            </div>
-
-          </div>
-          <p>
-            <label for="name">Seleccionar nivel:</label>
-            <select name="level" id="level">
-                <option value="expert">Expert</option>
-                <option value="intermediate">Intermediate</option>
-                <option value="starter">Starter</option>
-            </select>
-          </p>
-          <p>
-            <input type="button" id="button" value="Enviar">
-          </p>
-
-        </fieldset>
-      </form>
     
 </body>
 </html>
