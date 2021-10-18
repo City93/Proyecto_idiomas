@@ -8,53 +8,74 @@
     <link rel="stylesheet" href="../styles/style-contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,600;1,300;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <title>Contact</title>
 </head>
-<nav>
-
-
-</nav>
 
 <body>
-    <h1>Contacto</h1>
-    <div class="container">
-        
-        <section class="contact">
-             <form class="form">
-                
-                <div class="first"
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" >
-                    <label for="lastname">Apellidos:</label>
-                    <input type="text" id="lastname" name="lastname">
-                </div> 
+    <nav class="menu">
+
+        <img class="logo" src="../assets/images/logo.png" alt="logo">
+
+        <ul class="nav-list">          
+          <li class="item-list"><a href="./pages/register.html">INSCRÍBETE</a></li>
+          <li class="item-list"><a href="./pages/contact.html">CONTACTO</a></li>
+        </ul>
+
+      </nav>
+    <main>
+        <h1>Contacto</h1>
+        <div class="container">
+            
+            <section class="contact">
+                 <form class="form">
                     
-               <div class="second">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="lastname">
-                    <label class="alumno"for="alumn">¿Eres alumno?</label>
-
-                    <label for="yes">Yes</label>
-                    <input type="radio" id="yes" name="alumn" value="Yes">
-                     <label for="no">No</label>
-                    <input type="radio" id="no" name="alumn" value="No">
-                </div> 
-     
-                <div class="third">
-                    <label class="message"for="message">Mensaje</label>
-                    <textarea id="message" name="message" rowS=8 cols=64 placeholder="Escriba aqui.."></textarea>      
-                </div> 
-
-                <div class="submit">
-                    <input type="button" value="Enviar">
-                </div>
-
-                </form>  
+                    <div class="first">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" >
+                        <label for="lastname">Apellidos:</label>
+                        <input type="text" id="lastname" name="lastname">
+                    </div> 
+                        
+                   <div class="second">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="lastname">
+                        <label class="alumno"for="alumn">¿Eres alumno?</label>
+    
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" name="alumn" value="Yes">
+                         <label for="no">No</label>
+                        <input type="radio" id="no" name="alumn" value="No">
+                    </div> 
+         
+                    <div class="third">
+                        <label class="message"for="message">Mensaje</label>
+                        <textarea id="message" name="message" rowS=8 cols=64 placeholder="Escriba aqui.."></textarea>      
+                    </div> 
+    
+                    <div class="submit">
+                        <input type="button" value="Enviar">
+                    </div>
+    
+                    </form>  
+                </section>
+            <section class="map">
+                <p>Dónde estamos</p>
+                <img src="../assets/images/mapa.jpg">
             </section>
-        <section class="map">
-            <p>Dónde estamos</p>
-            <img src="../assets/images/mapa.jpg">
-        </section>
-    </div>
-   
+        </div>
+
+    </main>
+    
+    <footer>
+        <p> 
+            <a href="">Mapa Web</a> ||
+            <a href="">Condiciones Generales</a>  ||
+            <a href="">Aviso Legal</a>  ||
+            <a href="">Política de Privacidad</a>  ||
+            <a href="">Política de Cookies</a>  || 
+            <a href="">Configurar Cookies</a>
+        </p>
+
+    </footer>      
 </html>
