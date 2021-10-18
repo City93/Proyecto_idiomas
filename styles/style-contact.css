@@ -1,78 +1,44 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-body{
-    background-image:url("../assets/images/fondo.jpg");
-    width:100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
+/* Nav*/
+.menu{
+    top:0px;
+    margin-bottom: 3px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
     align-items: center;
+    position:fixed;
+    background-color: #1A312B;
 }
-h1{
-    color: #570000;
-    box-shadow: grey;
-    font-family: 'Bebas Neue', cursive;
-    margin-top: 100px;
-    font-size: 50px;
-    letter-spacing: 3px;
-        
+.logo{
+    
+    width: 190px;
+    height: 36px;
+    margin-left: 17px;
 }
-.container{
-    border: 1px solid black;
-    display: flex;
+.nav-list{
+    
+    width: 250px;
+    display:flex;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 200;
+    font-size: 15px;
+
 }
-.form{
-    width: 688px;
-    height: 400px;
-    background-color: rgb(0, 0, 0);
-    opacity: 80%;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+
+.item-list{
+   
+    list-style: none;
+    margin: 0px 8px 0px 8px;
    
 }
-
-.first{
-    margin-top: 50px;
-    padding: 15px     
+a{
+    text-decoration: none; 
+    color:white;
 }
 
-.second{
-    padding: 15px;
-    justify-content: right;
-}
-
-.third{
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.message{
-    padding-bottom: 10px;
-}
-
-.submit{
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    
-    
-}
-.alumno{
-    padding-left: 20px;
-}
-
-.map{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: rgb(10, 10, 10);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+/* parte principal formulario*/
+main{
+    height: 86vh;
+    width:100%;
+    background-size: cover;
 }
