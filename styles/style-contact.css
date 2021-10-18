@@ -1,7 +1,8 @@
-/* Nav*/
 .menu{
     top:0px;
+    margin-top: 5px;
     margin-bottom: 3px;
+    /* border: 1px solid pink; */
     width: 100%;
     display:flex;
     justify-content: space-between;
@@ -9,14 +10,16 @@
     position:fixed;
     background-color: #1A312B;
 }
+
 .logo{
-    
+    /* border: 1px solid green; */
     width: 190px;
     height: 36px;
     margin-left: 17px;
 }
+
 .nav-list{
-    
+    /* border: 1px solid blue; */
     width: 250px;
     display:flex;
     font-family: 'Roboto', sans-serif;  
@@ -26,19 +29,106 @@
 }
 
 .item-list{
-   
+    /* border: 1px solid purple; */
     list-style: none;
     margin: 0px 8px 0px 8px;
    
 }
+
 a{
     text-decoration: none; 
     color:white;
 }
-
 /* parte principal formulario*/
 main{
-    height: 86vh;
+    height: 90vh;
     width:100%;
     background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url("../assets/images/fondocontact.jpg");
+}
+h1{
+    color:#23403E;
+    box-shadow: grey;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 100px;
+    font-size: 50px;
+    letter-spacing: 3px;
+        
+}
+.container{
+    border: 1px solid black;
+    display: flex;
+}
+.form{
+    width: 688px;
+    height: 409px;
+    background-color: rgb(0, 0, 0);
+    opacity: 80%;
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.first{
+    margin-top: 50px;
+    padding: 15px     
+}
+.second{
+    padding: 15px;
+    justify-content: right;
+}
+.third{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.message{
+    padding-bottom: 10px;
+}
+.submit{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.alumno{
+    padding-left: 20px;
+}
+
+.title-map{
+    margin-top: 5px;
+    height: 10px;
+}
+.map{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(10, 10, 10);
+    font-family: 'Roboto', sans-serif; 
+    font-size: 25px;   
+}
+
+
+/*footer*/
+footer{
+    display:flex;
+    justify-content: center;
+    position:fixed;    
+    width: 100%;
+    color:white;
+    /*height: 5px; */
+    font-family: 'Roboto', sans-serif;  
+    /*font-weight: 200;*/
+    font-size: 15px;
+    background-color:#1A312B;
+    
 }

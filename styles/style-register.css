@@ -60,12 +60,7 @@ form.main{
     display: none;
     margin-bottom: 15px;
 }
-div#levelTest{
-    /* border: 1px solid black; */
-    /* display: flex;
-    flex-direction: column; */
-    /* height: 200px; */
-}
+
 
 footer{
     display:flex;
