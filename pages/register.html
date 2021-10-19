@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/style-register.css">
     <script src="../scripts/script-validation.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@300;400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <title>INSCRIBETE! - 3 Ceintures</title>
 </head>
 <body>
@@ -20,85 +23,88 @@
     </ul>
 
   </nav>
-<div id='root'>
-<h1>Tu primer paso para aprender un idioma:</h1>
-<form class='main'>
-      <p>
-        <label for="fName">Nombre:</label>
-        <input type="text" name="fName" id="fName" value="">
-      </p>
-      <p>
-        <label for="lName">Apellidos:</label>
-        <input type="text" name="lName" id="lName" value="">
-      </p>
-      <p>
-        <label for="email">Correo electrónico:</label>
-        <input type="email" name="email" id="email" value="">
-      </p>
-      <p>
-        <label for="languages">Seleccionar idioma:</label>
-        <select name="languages" id="languages">
-            <option value="" selected disabled hidden></option>
-            <option value="ingles">Inglés</option>
-            <option value="frances">Francés</option>
-            <option value="aleman">Alemán</option>
-        </select>
-      </p>
-      <div id='levelTest'>
-        <div id= 'questions'>
-          <p>Prueba de nivel:(Marca la opción más correcta)</p>
-          <p>1. Can I park here?</p>
-            <form>
-                  <input type="radio" id="a1-1" name="a1" value="answer1">
-                  <label for="a1">Only for half an hour.</label><br>
-                  <input type="radio" id="a1-2" name="a1" value="answer2">
-                  <label for="a2">It's the same place.</label><br>
-                  <input type="radio" id="a1-3" name="a1" value="answer3">
-                  <label for="a3">Sorry, I did that.</label>
-                <br>
-                  <input type="radio" id="a1-4" name="a1" value="answer4">
-                  <label for="a4">Sorry, I only speak javascript</label>
-            </form>
-          <p>2. What colour will you paint the children's bedroom?</p>
-            <form>
-                  <input type="radio" id="a2-1" name="a2" value="answer1">
-                  <label for="a1">I hope it was right.</label><br>
-                  <input type="radio" id="a2-2" name="a2" value="answer2">
-                  <label for="a2">It wasn't very difficult.</label><br>
-                  <input type="radio" id="a2-3" name="a2" value="answer3">
-                  <label for="a3">We can't decide.</label>
-                <br>
-                  <input type="radio" id="a2-4" name="a2" value="answer4">
-                  <label for="a4">My favourite color is electric blue</label>
-            </form> 
-          <p>3. Shall we go to the gym now? </p>
-            <form>
-                  <input type="radio" id="a3-1" name="a3" value="answer1">
-                  <label for="a1">Of course not, are you crazy?</label><br>
-                  <input type="radio" id="a3-2" name="a3" value="answer2">
-                  <label for="a2">I'm too tired.</label><br>
-                  <input type="radio" id="a3-3" name="a3" value="answer3">
-                  <label for="a3">Not at all.</label>
-                <br>
-                  <input type="radio" id="a3-4" name="a3" value="answer4">
-                  <label for="a4">It's very good.</label>
-            </form> 
-        </div>
-        <p id='level2'>
-          <label for="name">Seleccionar nivel:</label>
-          <select name="level" id="level">
-              <option value="" selected disabled hidden></option>
-              <option value="principiante">Principiante</option>
-              <option value="intermedio">Intermedio</option>
-              <option value="experto">Experto</option>
-          </select>
-        </p>
-        <input type="button" id="button" value="Enviar">
-        
-      </div>
-
-  </form>
-</div>
+  <main>
+    <div id='root'>
+    <h1>Tu primer paso para aprender un idioma:</h1>
+    <form class='main'>
+          <p>
+            <label for="fName">Nombre:</label>
+            <input type="text" name="fName" id="fName" value="" required>
+          </p>
+          <p>
+            <label for="lName">Apellidos:</label>
+            <input type="text" name="lName" id="lName" value="" required>
+          </p>
+          <p>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" id="email" value="" required>
+          </p>
+          <p>
+            <label for="languages">Seleccionar idioma:</label>
+            <select name="languages" id="languages">
+                <option value="" selected disabled hidden></option>
+                <option value="ingles">Inglés</option>
+                <option value="frances">Francés</option>
+                <option value="aleman">Alemán</option>
+            </select>
+          </p>
+          <div id='levelTest'>
+            <div id= 'questions'>
+              <p>Prueba de nivel:(Marca la opción más correcta)</p>
+              <p>1. Can I park here?</p>
+                <form>
+                      <input type="radio" id="a1-1" name="a1" value="answer1">
+                      <label for="a1">Only for half an hour.</label><br>
+                      <input type="radio" id="a1-2" name="a1" value="answer2">
+                      <label for="a2">It's the same place.</label><br>
+                      <input type="radio" id="a1-3" name="a1" value="answer3">
+                      <label for="a3">Sorry, I did that.</label>
+                    <br>
+                      <input type="radio" id="a1-4" name="a1" value="answer4">
+                      <label for="a4">Sorry, I only speak javascript</label>
+                </form>
+              <p>2. What colour will you paint the children's bedroom?</p>
+                <form>
+                      <input type="radio" id="a2-1" name="a2" value="answer1">
+                      <label for="a1">I hope it was right.</label><br>
+                      <input type="radio" id="a2-2" name="a2" value="answer2">
+                      <label for="a2">It wasn't very difficult.</label><br>
+                      <input type="radio" id="a2-3" name="a2" value="answer3">
+                      <label for="a3">We can't decide.</label>
+                    <br>
+                      <input type="radio" id="a2-4" name="a2" value="answer4">
+                      <label for="a4">My favourite color is electric blue</label>
+                </form> 
+              <p>3. Shall we go to the gym now? </p>
+                <form>
+                      <input type="radio" id="a3-1" name="a3" value="answer1">
+                      <label for="a1">Of course not, are you crazy?</label><br>
+                      <input type="radio" id="a3-2" name="a3" value="answer2">
+                      <label for="a2">I'm too tired.</label><br>
+                      <input type="radio" id="a3-3" name="a3" value="answer3">
+                      <label for="a3">Not at all.</label>
+                    <br>
+                      <input type="radio" id="a3-4" name="a3" value="answer4">
+                      <label for="a4">It's very good.</label>
+                </form> 
+            </div>
+            <p id='level2'>
+              <label for="name">Seleccionar nivel:</label>
+              <select name="level" id="level">
+                  <option value="" selected disabled hidden></option>
+                  <option value="principiante">Principiante</option>
+                  <option value="intermedio">Intermedio</option>
+                  <option value="experto">Experto</option>
+              </select>
+            </p>
+            <input type="button" id="button" value="Enviar">
+            
+          </div>
+    
+      </form>
+    </div>
+  
+  </main>
 <footer>
   <p> 
       <a href="">Mapa Web</a> ||
