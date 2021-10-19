@@ -1,6 +1,20 @@
 body{
     /* background-color: black; */
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Georama', sans-serif;
+    color:#1A312B;
+    
+     
+}
+main{
+    height: 95vh;
+    width: 100%;
+    background-image: url("../assets/images/fondoregistro.jpg");
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;    
 }
 
 /* Barra de navegación */
@@ -51,9 +65,14 @@ div#root {
     margin: 100px 0 0 50px;
     width: 50%;
     background-color: white;
+    padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 100px 0 100px 50px;
+    padding-bottom: 10px;
+    
 }
 form.main{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
     padding: 5px 10px 10px 20px;
 }
 #questions{
