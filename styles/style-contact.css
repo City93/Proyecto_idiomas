@@ -160,6 +160,7 @@ footer{
     touch-action: manipulation;
     vertical-align: baseline;
     width: auto;
+    bottom: 14px;
     
   }
   .button-5:hover,
